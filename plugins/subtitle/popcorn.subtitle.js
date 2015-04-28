@@ -14,7 +14,7 @@
           // the video element must have height and width defined
           style.fontSize = "18px";
           style.width = media.offsetWidth + "px";
-          style.top = position.top  + media.offsetHeight - ctxContainer.offsetHeight - 40 + "px";
+          style.top = position.top  + media.offsetHeight - ctxContainer.offsetHeight - 20 + "px";
           style.left = position.left + "px";
 
           setTimeout( updatePosition, 10 );
